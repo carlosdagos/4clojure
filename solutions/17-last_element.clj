@@ -9,7 +9,7 @@
 (fn solution [xs]
   (if (empty? xs)
     (throw (Exception. "empyt list"))
-    (nth xs (- (count xs) 1))))
+    (nth xs (- (count xs) 1)))) ; use 'last' instead!
 
 (= (solution [1 2 3 4 5]) 5)
 (= (solution '(5 4 3)) 3)
