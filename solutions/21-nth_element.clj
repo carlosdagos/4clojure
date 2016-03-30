@@ -4,7 +4,7 @@
 ;
 ; Again, like the two previous one, this function is not total. It should 
 ; return a Just x or Nothing, instead of an element or 'nil' ... which is ok
-; I suppose, but maybe I'm still thinking too much about Haskell XD
+; I suppose, but maybe I'm still thinking too much about Haskell
 ;
 
 (fn nth-elem [xs n]

@@ -2,7 +2,8 @@
 ; Map returns a new sequence consisting of the result of applying 
 ; f to each item of s. Do not confuse the map function with 
 ; the map data structure.
-
+;
+; http://www.4clojure.com/problem/17
 
 (def solution '(6 7 8))
 (= solution (map #(+ % 5) '(1 2 3)))
