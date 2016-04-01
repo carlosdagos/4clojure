@@ -5,7 +5,7 @@
 ; (this is why 'set' is used in the test cases).
 
 (fn split-by-type [xs]
-    (set (map #(.val %)  (group-by type xs))))
+    (set (map #(.val %) (group-by type xs))))
 
 (= (set (split-by-type [1 :a 2 :b 3 :c])) #{[1 2 3]  [:a :b :c]})
 (= (set (split-by-type [:a  "foo"  "bar" :b])) #{[:a :b]  ["foo"  "bar"]})
@@ -14,4 +14,4 @@
 ; An alternative solution would be
 ;
 ; (fn split-by-type [xs]
-;     (set (map second  (group-by type xs))))
+;     (set (map second (group-by type xs))))
