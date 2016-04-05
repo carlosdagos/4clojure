@@ -5,7 +5,7 @@
 ; This one, like the previous one, will throw a function which makes it
 ; a non-total function
 
-(defn solution [xs]
+(fn solution [xs]
   (if (<= (count xs) 1)
     (throw (Exception. "list is too small"))
     (nth xs (- (count xs) 2))))

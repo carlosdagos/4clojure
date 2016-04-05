@@ -2,7 +2,7 @@
 ;
 ; http://www.4clojure.com/problem/30
 
-(defn remove-seq-dups [xs]
+(fn remove-seq-dups [xs]
   (map first (partition-by identity xs)))
 
 (= (apply str (remove-seq-dups "Leeeeeerrroyyy"))  "Leroy")
