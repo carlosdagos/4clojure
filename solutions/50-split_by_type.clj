@@ -3,6 +3,8 @@
 ; The internal order of each sub-sequence should be maintained, but the
 ; sub-sequences themselves can be returned in any order
 ; (this is why 'set' is used in the test cases).
+;
+; http://www.4clojure.com/problem/50
 
 (fn split-by-type [xs]
     (set (map #(.val %) (group-by type xs))))
