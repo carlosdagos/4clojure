@@ -2,6 +2,8 @@
 ; increasing numbers. If two sub-sequences have the same length,
 ; use the one that occurs first. An increasing sub-sequence must
 ; have a length of 2 or greater to qualify.
+;
+; http://www.4clojure.com/problem/53
 
 (fn longest-increasing-subseq
   [xs]
