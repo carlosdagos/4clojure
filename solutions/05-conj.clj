@@ -1,4 +1,4 @@
-; When operating on a list, the conj function will return a new 
+; When operating on a list, the conj function will return a new
 ; list with one or more items  "added" to the front.
 ;
 ; http://www.4clojure.com/problem/5

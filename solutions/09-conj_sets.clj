@@ -1,4 +1,4 @@
-; When operating on a set, the conj function returns a new set with 
+; When operating on a set, the conj function returns a new set with
 ; one or more keys  "added".
 ;
 ; http://www.4clojure.com/problem/9

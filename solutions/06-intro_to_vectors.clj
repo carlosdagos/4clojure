@@ -1,4 +1,4 @@
-; Vectors can be constructed several ways. You can compare them with lists. 
+; Vectors can be constructed several ways. You can compare them with lists.
 ;
 ; http://www.4clojure.com/problem/6
 
